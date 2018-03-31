@@ -1,0 +1,122 @@
+[
+  {
+  	"name": "Tercer Tiempo",
+  	"type": "pizzeria",
+  	"address":"Paraguay 2211 Montevideo, Uruguay"  	
+  },
+  {
+  	"name": "Pizzeria Abayuba",
+  	"type": "pizzeria",
+  	"address":"Gral Enrique Martínez 1249 Montevideo,Uruguay"  	
+  },
+  {
+  	"name": "Pizzería Girasoles",
+  	"type": "pizzeria",
+  	"address":"Yí 1403 Montevideo,Uruguay"  	
+  },
+  {
+	  	"name": "Pizza Nova",
+	  	"type": "pizzeria",
+	  	"address":"Dr. Joaquín Requena 2431, 11800 Montevideo,Uruguay"  	
+	  },
+	 {
+	  	"name": "Pizzeria Minas",
+	  	"type": "pizzeria",
+	  	"address":"Calle Minas 1581, 11200 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "El Británico",
+	  	"type": "pizzeria",
+	  	"address":"Av Millán 2949, 11800 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizza Subte",
+	  	"type": "pizzeria",
+	  	"address":"Ejido 1327, 11100 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizza Bum",
+	  	"type": "pizzeria",
+	  	"address":"Av. Gral. San Martín 2981, 11800 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizzeria Don Charle",
+	  	"type": "pizzeria",
+	  	"address":"Dr. Juan José de Amézaga 2201, 11800 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Mondo della Pizza",
+	  	"type": "pizzeria",
+	  	"address":"Av. 18 de Julio 1105, 11100 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Bar Tasende",
+	  	"type": "pizzeria",
+	  	"address":"San José, 11100 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Nuevo Imperial",
+	  	"type": "pizzeria",
+	  	"address":"Soriano 1544, 11200 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Focaccia Prado",
+	  	"type": "pizzeria",
+	  	"address":"Venancio Benavídez 3415, 11700 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Bar De PIZZAS",
+	  	"type": "pizzeria",
+	  	"address":"Dr. Pablo de María 1257, 11200 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizzeria Rivera",
+	  	"type": "pizzeria",
+	  	"address":"Av. Gral. Rivera 2224 bis, 11200 Montevideo,Uruguay"  	
+	  },
+	 {
+	  	"name": "Trouville Pizza",
+	  	"type": "pizzeria",
+	  	"address":"Bulevar General Artigas, 11600 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizzas Branca",
+	  	"type": "pizzeria",
+	  	"address":"Av. Gonzalo Ramírez 1700, 11200 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Los Tavarez",
+	  	"type": "pizzeria",
+	  	"address":"Guillermo Tell, 11700 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Don Aurelio",
+	  	"type": "pizzeria",
+	  	"address":"Echevarriarza 3381, 11300 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "La clasica",
+	  	"type": "pizzeria",
+	  	"address":"Av. 8 de Octubre 4201, 12000 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Negro Bar Pizzería",
+	  	"type": "pizzeria",
+	  	"address":"Av. Gral. Rivera 4101, 11400 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizzeria Venecia",
+	  	"type": "pizzeria",
+	  	"address":"Av. Dr. Luis Alberto de Herrera 3175, 11600 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Pizzeria Bocattia",
+	  	"type": "pizzeria",
+	  	"address":"Paysandú 1993, 11200 Montevideo,Uruguay"  	
+	  },
+	   {
+	  	"name": "Big Bang Pizza",
+	  	"type": "pizzeria",
+	  	"address":"Dr Aureliano Rodriguez Larreta 2951, 11800 Montevideo,Uruguay"  	
+	  }
+]

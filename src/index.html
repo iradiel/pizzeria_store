@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Geocoding service</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<style>
+#map {
+	height: 100%;
+	width: 50%;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#floating-panel {
+	position: absolute;
+	top: 10px;
+	left: 25%;
+	z-index: 5;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#customsearch {
+	float: right;
+	width: 48%;
+	padding-left: 2%;
+}
+
+#outputDiv {
+	font-size: 10px;
+}
+</style>
+</head>
+<body>
+
+	<div>
+		<select id="locationSelect" style="width: 10%">
+			<option value="all" selected>See all results</option>
+			<option value="custom">Custom search</option>
+		</select>
+	</div>
+	<div id="customsearch" style="display: none">
+		<label for="raddressInput">Search location:</label> <input type="text"
+			id="addressInput" size="15" placeholder="Enter your address"
+              type="text"> <input type="button"
+			id="searchButton" value="Search" />
+		<form action="">
+			<input type="radio" id="proximity" name="gender" value="Proximity"
+				checked onclick="showOptions()"> Proximity<br> <input
+				type="radio" id="distance" name="gender" value="Distance"
+				onclick="showOptions()"> Distance<br> <input
+				type="radio" id="direction" name="gender" value="Direction"
+				onclick="showOptions()"> Direction<br>
+		</form>
+		<div id="radiusdiv">
+			<label for="radiusSelect">Radius:</label> <select id="radiusSelect"
+				label="Radius">
+				<option value="50" selected>50 kms</option>
+				<option value="30">30 kms</option>
+				<option value="20">20 kms</option>
+				<option value="10">10 kms</option>
+				<option value="5">5 kms</option>
+				<option value="2">2 kms</option>
+				<option value="1">1 kms</option>
+			</select>
+		</div>
+		<div id="distancediv" style="display: none">
+			<label for="countSelect">Distance to top:</label> <select
+				id="countSelect" label="Distance">
+				<option value="All" selected>All</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+				<option value="20">20</option>
+			</select> Distance in: <select id="units">
+
+				<option value="km">Kilometers</option>
+
+				<option value="mi">Miles</option>
+
+			</select>
+			<div id="outputdistanceDiv"></div>
+		</div>
+		<div id="directionsdiv" style="display: none">
+			<label for="directionSelect">Direction to :</label> <select
+				id="directionSelect" label="Direction">
+			</select>
+			<div id="directions-panel" style="width: 70%; height: 550px;">Directions
+				displayed here:</div>
+		</div>
+
+	</div>
+	<div id="map"></div>
+	
+	 <script src="main.js"></script>	
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAENjceZAmHPsyk73ilP9biGruJsbT_NfA&callback=initMap&&libraries=places">
+		
+	</script>
+</body>
+</html>
