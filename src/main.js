@@ -269,8 +269,7 @@ function searchLocationsDistance(customerLocation) {
 		travelMode : google.maps.TravelMode.DRIVING,
 		unitSystem : unitSys,
 		avoidHighways : false,
-		avoidTolls : false,
-		durationInTraffic : true
+		avoidTolls : false		
 	}, callback);
 
 }
@@ -312,8 +311,8 @@ function callback(response, status) {
 			for (var j = 0; j < results.length; j++) {
 				// Store the results for later sorting
 				storeResults.push([ j, destinations[j],
-						results[j].duration_in_traffic.value,
-						results[j].duration_in_traffic.text,
+						results[j].duration.value,
+						results[j].duration.text,
 						results[j].distance.value, results[j].distance.text ]);
 
 			}
